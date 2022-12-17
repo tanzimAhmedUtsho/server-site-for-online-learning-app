@@ -17,5 +17,5 @@ app.get("/olp", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Educational server is running on the port, ${port}`);
+  console.log(`Learning server is running on the port, ${port}`);
 });
