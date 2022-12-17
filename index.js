@@ -9,7 +9,7 @@ app.use(cors());
 const olp = require("./data/olp.json");
 
 app.get("/", (req, res) => {
-  res.send("Educational Server is Running");
+  res.send("Educational Server is Running on port");
 });
 
 app.get("/olp", (req, res) => {
